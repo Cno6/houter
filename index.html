@@ -13,5 +13,519 @@
     />
     <link rel="stylesheet" href="./src/style.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container _container">
+          <div class="logo">
+            <span class="logo__image"></span
+            ><span class="logo__text">Hounter</span>
+          </div>
+          <nav class="navigation">
+            <a href="#" class="button button_transparency">About Us</a>
+            <a href="#" class="button button_transparency">Article</a>
+            <button class="button button_select button_transparency">
+              Property<span class="ico ico_arrow ico_arrow_down"></span>
+            </button>
+          </nav>
+          <button class="button_additional">Sign Up!</button>
+        </div>
+      </header>
+      <main class="main">
+        <section class="preview">
+          <div class="preview__container _container">
+            <div class="preview__text">
+              <h1 class="preview__header">
+                Find The Place To Live
+                <span class="text-outline">Your Dreams</span> Easily Here
+              </h1>
+              <p class="preview__description">
+                Everything you need about finding your place to live will be
+                here, where it will be easier for you
+              </p>
+              <form class="input input_search-location">
+                <div class="input__field">
+                  <span class="ico ico__location input__ico"></span
+                  ><input
+                    type="text"
+                    placeholder="Search for the location you want!"
+                    class="input__input"
+                  /><button class="button button_primary">
+                    Search <span class="ico ico_arrow ico_arrow_right"></span>
+                  </button>
+                </div>
+              </form>
+              <p class="preview__partners">Our Partnership</p>
+              <div class="partners">
+                <img
+                  src="./src/images/partners/traveloka.png"
+                  alt="Traveloka"
+                  class="partners__logo"
+                />
+                <img
+                  src="./src/images/partners/airbnb.png"
+                  alt="Airbnb"
+                  class="partners__logo"
+                />
+                <img
+                  src="./src/images/partners/tripadvisor.png"
+                  alt="Tripadvisor"
+                  class="partners__logo"
+                />
+                <img
+                  src="./src/images/partners/ticketcom.png"
+                  alt="Ticket.com"
+                  class="partners__logo"
+                />
+              </div>
+            </div>
+            <div class="preview__background-image">
+              <div class="stats">
+                <div class="stat stat_peoples">
+                  <div class="stat__image">
+                    <img
+                      class="man-photo stat__photo"
+                      src="./src/images/peoples/Esther.jpg"
+                      alt="Esther"
+                    />
+                    <img
+                      class="man-photo stat__photo"
+                      src="./src/images/peoples/John.jpg"
+                      alt="John"
+                    />
+                    <img
+                      class="man-photo stat__photo"
+                      src="./src/images/peoples/Dianne.jpg"
+                      alt="Dianne"
+                    />
+                  </div>
+                  <div class="stat__text">
+                    <strong class="stat__title">1K+ People</strong>
+                    <p class="stat__description">Successfully Getting Home</p>
+                  </div>
+                </div>
+                <div class="stat stat_houses">
+                  <div class="stat__image">
+                    <img src="./src/images/start-page/house.jpg" alt="Esther" />
+                  </div>
+                  <div class="stat__text">
+                    <strong class="stat__title">56 Houses</strong>
+                    <p class="stat__description">Sold Monthly</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="houses">
+          <div class="houses__container _container">
+            <p class="pretitle houses__pretitle">Our Recommendation</p>
+            <div class="houses__header">
+              <h2 class="section-title houses__title">Featured House</h2>
+              <div class="filter houses__filter">
+                <button class="button button_bordered button_bordered_active">
+                  <span class="ico ico_house"></span>House
+                </button>
+                <button class="button button_bordered">
+                  <span class="ico ico_villa"></span>Villa
+                </button>
+                <button class="button button_bordered">
+                  <span class="ico ico_apartmemt"></span>Apartment
+                </button>
+              </div>
+              <div class="pagination houses__pagination">
+                <button class="button button_primary button_primary_disabled">
+                  <span class="ico ico_arrow ico_arrow_left"></span>
+                </button>
+                <button class="button button_primary">
+                  <span class="ico ico_arrow ico_arrow_right"></span>
+                </button>
+              </div>
+            </div>
+            <div class="carousel houses__carousel">
+              <div class="house-card">
+                <div class="house-card__image">
+                  <img
+                    class="house-card__image"
+                    src="./src/images/houses-page/House.jpg"
+                    alt="Roselands House"
+                  />
+                  <div class="tag tag_popular">
+                    <span class="ico ico_popular"></span>Popular
+                  </div>
+                </div>
+                <div class="house-card__content">
+                  <strong class="house-card__title">Roselands House</strong>
+                  <p class="house-card__cost">$ 35.000.000</p>
+                  <div class="owner house-card__owner">
+                    <img
+                      src="./src/images/peoples/Dianne.jpg"
+                      alt=""
+                      class="man-photo owner__photo"
+                    />
+                    <div class="owner__text">
+                      <p class="owner__name">Dianne Russell</p>
+                      <p class="owner__location">Manchester, Kentucky</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="house-card">
+                <div class="house-card__image">
+                  <img
+                    class="house-card__image"
+                    src="./src/images/houses-page/House-1.jpg"
+                    alt="Woodlandside"
+                  />
+                  <div class="tag tag_popular">
+                    <span class="ico ico_new"></span>New House
+                  </div>
+                </div>
+                <div class="house-card__content">
+                  <strong class="house-card__title">Woodlandside</strong>
+                  <p class="house-card__cost">$ 20.000.000</p>
+                  <div class="house-card__owner owner">
+                    <img
+                      src="./src/images/peoples/Robert.jpg"
+                      alt=""
+                      class="man-photo owner__photo"
+                    />
+                    <div class="owner__text">
+                      <p class="owner__name">Robert Fox</p>
+                      <p class="owner__location">Dr. San Jose, South Dakota</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="house-card">
+                <div class="house-card__image">
+                  <img
+                    class="house-card__image"
+                    src="./src/images/houses-page/House-2.jpg"
+                    alt="The Old Lighthouse"
+                  />
+                  <div class="tag tag_popular">
+                    <span class="ico ico_best"></span>Popular
+                  </div>
+                </div>
+                <div class="house-card__content">
+                  <strong class="house-card__title">The Old Lighthouse</strong>
+                  <p class="house-card__cost">$ 44.000.000</p>
+                  <div class="house-card__owner owner">
+                    <img
+                      src="./src/images/peoples/Ronald.jpg"
+                      alt=""
+                      class="man-photo owner__photo"
+                    />
+                    <div class="owner__text">
+                      <p class="owner__name">Ronald Richards</p>
+                      <p class="owner__location">Santa Ana, Illinois</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="house-card">
+                <div class="house-card__image">
+                  <img
+                    class="house-card__image"
+                    src="./src/images/houses-page/House-3.jpg"
+                    alt="Cosmo's House"
+                  />
+                  <div class="tag tag_popular">
+                    <span class="ico ico_popular"></span>Popular
+                  </div>
+                </div>
+                <div class="house-card__content">
+                  <strong class="house-card__title">Cosmo's House</strong>
+                  <p class="house-card__cost">$ 22.000.000</p>
+                  <div class="house-card__owner owner">
+                    <img
+                      src="./src/images/peoples/Jenny.jpg"
+                      alt=""
+                      class="man-photo owner__photo"
+                    />
+                    <div class="owner__text">
+                      <p class="owner__name">Jenny Wilson</p>
+                      <p class="owner__location">
+                        Preston Rd. Inglewood, Maine 98380
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="tour">
+          <div class="tour__container _container">
+            <div class="tour__content">
+              <p class="pretitle tour__pretitle">Ready to Sell!</p>
+              <h2 class="section-title tour__title">
+                Let’s Tour And See Our House!
+              </h2>
+              <p class="section-description tour__description">
+                Houses recommended by our partners that have been curated to
+                become the home of your dreams!
+              </p>
+              <div class="house-detail">
+                <p class="house-detail__title">House Detail</p>
+                <div class="layout-2-columns">
+                  <div class="house-detail__detail">
+                    <span class="ico ico_bedroom"></span>4 Bedrooms
+                  </div>
+                  <div class="house-detail__detail">
+                    <span class="ico ico_bathroom"></span>2 Bathrooms
+                  </div>
+                  <div class="house-detail__detail">
+                    <span class="ico ico_carport"></span>1 Carport
+                  </div>
+                  <div class="house-detail__detail">
+                    <span class="ico ico_floors"></span>2 Floors
+                  </div>
+                </div>
+              </div>
+              <div class="owner owner_contact">
+                <img
+                  src="./src/images/peoples/Dianne.jpg"
+                  alt=""
+                  class="man-photo owner__photo"
+                />
+                <div class="owner__text">
+                  <p class="owner__name">Dianne Russell</p>
+                  <p class="owner__role">Manager Director</p>
+                </div>
+                <a href="tel:+213123123123"
+                  ><span class="ico ico_phone"></span>Contact Now</a
+                >
+              </div>
+            </div>
+            <div class="tour__media">
+              <div class="video">
+                <img src="./src/images/tour-page/Rectangle 17.jpg" alt="" />
+              </div>
+              <img src="./src/images/tour-page/image1.jpg" alt="" />
+              <img src="./src/images/tour-page/Rectangle 19.jpg" alt="" />
+              <img src="./src/images/tour-page/Rectangle 20.jpg" alt="" />
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <p class="pretitle about__pretitle">See Our Review</p>
+          <h2 class="section-title tour__title">What Our User Say About Us</h2>
+          <div class="slider">
+            <div class="slide slider_slide">
+              <div class="slide__image">
+                <img src="./src/images/about-page/Rectangle 21.jpg" alt="" />
+              </div>
+              <div class="review slide__review">
+                <strong class="review__title"
+                  >Best! I got the house I wanted through Hounter</strong
+                >
+                <p class="review__body">
+                  Through this website I can get a house with the type and
+                  specifications I want very easily, without a complicated
+                  process to be able to find information on the house we want.
+                </p>
+                <div class="owner review__owner">
+                  <img
+                    src="./src/images/peoples/Dianne.jpg"
+                    alt="Dianne Russell"
+                    class="man-photo owner__photo"
+                  />
+                  <div class="owner__text">
+                    <p class="owner__name">Dianne Russell</p>
+                    <p class="owner__role">Manager Director</p>
+                  </div>
+                  <div class="review__rate">
+                    <span class="ico ico_star"></span>4.6
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="slider__navigation">
+              <button class="slider__button"></button>
+            </div>
+          </div>
+        </section>
+        <section class="articles">
+          <div class="articles__container _container">
+            <p class="articles articles__pretitle">
+              See Tips And Trick From Our Partnership
+            </p>
+            <h2 class="section-title articles__title">
+              Find out more about selling and buying homes
+            </h2>
+            <button class="button_primary">More Artikel</button>
+            <div class="layout-2-columns">
+              <div class="articles__list">
+                <article class="article-snippet">
+                  <img
+                    src="./src/images/articles-page/Rectangle 22.jpg"
+                    alt=""
+                    class="article-snippet__image"
+                  />
+                  <div class="article-snippet__content">
+                    <div class="owner article__owner">
+                      <img
+                        src="./src/images/peoples/Dianne.jpg"
+                        alt="Dianne Russell"
+                        class="man-photo owner__photo"
+                      />
+                      <div class="owner__text">
+                        <p class="owner__name">Dianne Russell</p>
+                      </div>
+                    </div>
+                    <h3 class="article-snippet__title">
+                      The things we need to check when we want to buy a house
+                    </h3>
+                    <span class="ico ico_time"></span>4 min read | 25 Apr 2021
+                  </div>
+                </article>
+                <article class="article-snippet">
+                  <img
+                    src="./src/images/articles-page/Rectangle 22-1.jpg"
+                    alt=""
+                    class="article-snippet__image"
+                  />
+                  <div class="article-snippet__content">
+                    <div class="owner article__owner">
+                      <img
+                        src="./src/images/peoples/Courtney.jpg"
+                        alt="Courtney Henry"
+                        class="man-photo owner__photo"
+                      />
+                      <div class="owner__text">
+                        <p class="owner__name">Courtney Henry</p>
+                      </div>
+                    </div>
+                    <h3 class="article-snippet__title">
+                      7 Ways to distinguish the quality of the house we want to
+                      buy
+                    </h3>
+                    <span class="ico ico_time"></span>6 min read | 24 Apr 2021
+                  </div>
+                </article>
+                <article class="article-snippet">
+                  <img
+                    src="./src/images/articles-page/Rectangle 22-2.jpg"
+                    alt=""
+                    class="article-snippet__image"
+                  />
+                  <div class="article-snippet__content">
+                    <div class="owner article__owner">
+                      <img
+                        src="./src/images/peoples/Darlene.jpg"
+                        alt="Darlene Robertson"
+                        class="man-photo owner__photo"
+                      />
+                      <div class="owner__text">
+                        <p class="owner__name">Darlene Robertson</p>
+                      </div>
+                    </div>
+                    <h3 class="article-snippet__title">
+                      The best way to know the quality of the house we want to
+                      buy
+                    </h3>
+                    <span class="ico ico_time"></span>2 min read | 24 Apr 2021
+                  </div>
+                </article>
+              </div>
+              <div class="article-preview">
+                <img
+                  src="./src/images/articles-page/Rectangle 23.jpg"
+                  alt=""
+                  class="article-preview__image"
+                />
+                <div class="article-preview__content">
+                  <div class="owner article-preview__owner">
+                    <img
+                      src="./src/images/peoples/Cameron.jpg"
+                      alt="Cameron Williamson"
+                      class="man-photo owner__photo"
+                    />
+                    <div class="owner__text">
+                      <p class="owner__name">Cameron Williamson</p>
+                    </div>
+                  </div>
+                  <h3 class="article-preview__title">
+                    12 Things to know before buying a house
+                  </h3>
+                  <p class="article-preview__description">
+                    Want to buy a house but are unsure about what we should
+                    know, here I will try to explain what we should know and
+                    check when we want to buy a house
+                  </p>
+                  <span class="ico ico_time"></span>8 min read | 25 Apr 2021
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="subscribe">
+          <div class="subscribe__container _container">
+            <div class="layout-3-columns">
+              <div class="image-block"></div>
+              <div class="subscribe">
+                <h2 class="section-title subscribe__title">
+                  Subscribe For More Info and update from Hounter
+                </h2>
+                <form class="input input_subscribe">
+                  <div class="input__field">
+                    <span class="ico ico__email input__ico"></span
+                    ><input
+                      type="email"
+                      placeholder="Your email here"
+                      class="input__input"
+                    /><button class="button button_primary">
+                      Subsribe Now</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+              <div class="image-block"></div>
+            </div>
+          </div>
+        </section>
+        <footer class="footer">
+          <div class="footer__container _container">
+            <div class="footer__company-info">
+              <div class="logo">
+                <span class="logo__image"></span
+                ><span class="logo__text">Hounter</span>
+              </div>
+              <p class="footer__description">
+                We provide information about properties such as houses, villas and apartments to help people find their dream home
+              </p>
+              <div class="social-links">
+                <a href="#" class="ico ico_facebook"></a>
+                <a href="#" class="ico ico_twitter"></a>
+                <a href="#" class="ico ico_instagram"></a>
+              </div>
+              <div class="footer__navigation layout-3-columns">
+                <div class="footer__links">
+                  <strong class="footer__links-header">Property</strong>
+                  <a href="" class="footer__link">House</a>
+                  <a href="" class="footer__link">Apartment</a>
+                  <a href="" class="footer__link">Villa</a>
+                </div>
+                <div class="footer__links">
+                  <strong class="footer__links-header">Article</strong>
+                  <a href="" class="footer__link">New Article</a>
+                  <a href="" class="footer__link">Popular Article</a>
+                  <a href="" class="footer__link">Most Read</a>
+                  <a href="" class="footer__link">Tips & Tricks</a>
+                </div>
+                <div class="footer__links">
+                  <strong class="footer__links-header">Contact</strong>
+                  <a href="" class="footer__link">2464 Royal Ln. Mesa, New Jersey 45463</a>
+                  <a href="tel:6715550110" class="footer__link">(671) 555-0110</a>
+                  <a href="mailto:info@hounter.com" class="footer__link">info@hounter.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </main>
+    </div>
+  </body>
 </html>
